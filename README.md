@@ -22,3 +22,6 @@ Learning outcomes:
 
 
 A more detailed description of the tests can be found [here](https://github.com/ft-290008buchok/Letter_classifier).
+
+# Functionality
+
