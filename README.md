@@ -39,3 +39,9 @@ The classifier constructor accepts several parameters:
 4 - the range in which the weights of the neural network will be generated before the start of training   
 5 - the number of epochs   
 6 - slope of the sigmoid   
+
+For example, you can create a neural network with the following parameters  
+
+    classifier cl(4, { 5, 50, 500, 2500 }, 1.0, 1.0, 8, 0.4);
+ 
+ This neural network has 4 layers 5 x 50 x 500 x 2500 - size of output layer, hidden layers and input layer respectively, learning rate = 1, the initial weights of the neural network are generated in the range (-1; 1) and 8 epochs will be passed during training, and sigmoid looks like f(s) = (1 + e^(-0.4 * s))^(-1). 
