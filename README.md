@@ -24,4 +24,9 @@ Learning outcomes:
 A more detailed description of the tests can be found [here](https://github.com/ft-290008buchok/Letter_classifier).
 
 # Functionality
+The type of activation function is a sigmoid. The type of error function is the Mean Squared Error. The learning algorithm is a method of error back propagation. The type of gradient descent is stochastic gradient descent.
 
+    activation function:      (sigmoid) f(s) = (1 + e^(-a * s))^(-1), a = 0.4
+    error function:           (MSE) (x1 - t1)^2 + ... + (xn - tn)^2, x - output layer neuron out, t - output reference value
+    type of gradient descent: stochastic gradient descent
+  
