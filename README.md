@@ -53,7 +53,12 @@ For example, you can create a neural network with the following parameters
  
  This neural network has 4 layers 5 x 50 x 500 x 2500 - size of output layer, hidden layers and input layer respectively, learning rate = 1, the initial weights of the neural network are generated in the range (-1; 1) and 8 epochs will be passed during training, and sigmoid looks like f(s) = (1 + e^(-0.4 * s))^(-1). 
 
-To load the date set, the classifier::selection_load(dataset) method is used, the Date set must be represented as a structure
+To load the date set, the classifier::selection_load(dataset) method is used.
+
+    selection_load(dataset);
+    
+
+the Date set must be represented as a structure
 dataset.
 
     struct dataset
@@ -92,7 +97,7 @@ The result of the classification of the dataset elements will be output to the c
 
 And to classify a new image using a trained neural network, the classifyer::classify(std::vector<int>::iterator immage) is used.
 
-    cl.classify(simmage);
+    cl.classify(std::vector<int>::iterator immage);
     
 
 It takes as input an iterator of the vector of the input image, represented as a one-dimensional array, the length of which is equal to the size of the input layer of the neural network (by analogy with the dataset format), and returns the class number assigned to it by the neural network.
