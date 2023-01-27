@@ -30,3 +30,12 @@ The type of activation function is a sigmoid. The type of error function is the 
     error function:           (MSE) (x1 - t1)^2 + ... + (xn - tn)^2, x - output layer neuron out, t - output reference value
     type of gradient descent: stochastic gradient descent
   
+The name of the neural network class is classifier.
+
+The classifier constructor accepts several parameters:   
+1 - number of layers   
+2 - list with the sizes of layers starting from the output and ending with the input   
+3 - learning rate (step of gradient descent)   
+4 - the range in which the weights of the neural network will be generated before the start of training   
+5 - the number of epochs   
+6 - slope of the sigmoid   
