@@ -90,3 +90,5 @@ And to classify a new image using a trained neural network, the classifyer::clas
 
 It takes as input an iterator of the vector of the input image, represented as a one-dimensional array, the length of which is equal to the size of the input layer of the neural network (by analogy with the dataset format), and returns the class number assigned to it by the neural network.
 
+# Run
+To integrate this framework into your project, simply copy the classifier.h, classifier.cpp and data-load.h files into your project. Installation of additional libraries is not required.
