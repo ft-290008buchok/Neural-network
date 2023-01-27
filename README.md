@@ -2,11 +2,11 @@
 
 <p align="center">Simple way to learn neural network on C++</p>
 
-
 ![neural network](https://img.shields.io/badge/neural_network-000000?style=for-the-badge&logo=&logoColor=white)
 ![neural network](https://img.shields.io/badge/error_Back_Propagation-000000?style=for-the-badge&logo=&logoColor=white)
 ![neural network](https://img.shields.io/badge/c++-000000?style=for-the-badge&logo=&logoColor=white)
 ![neural network](https://img.shields.io/badge/stochastic_gradient_descent-000000?style=for-the-badge&logo=&logoColor=white)
+
 
 # Neuran-network
 It is a mini frame work for creating and training a neural network by the method of error back propagation with stochastic gradient descent for the C++ language. The  module is for designing a neural network with any number of layers of any size.
