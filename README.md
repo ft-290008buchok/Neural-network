@@ -1,7 +1,6 @@
-<img width="957" alt="лого для сети" src="https://user-images.githubusercontent.com/71639489/215088694-dad63d41-0676-4b45-b123-ba3496422b75.png">
-Simple way to learn neural network on C++   
+<img width="957" alt="лого для сети" src="https://user-images.githubusercontent.com/71639489/215088694-dad63d41-0676-4b45-b123-ba3496422b75.png">   
 
-# 
+<p align="center">Simple way to learn neural network on C++</p>
 
 
 ![neural network](https://img.shields.io/badge/neural_network-000000?style=for-the-badge&logo=&logoColor=white)
