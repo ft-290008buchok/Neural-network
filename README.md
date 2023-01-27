@@ -92,3 +92,6 @@ It takes as input an iterator of the vector of the input image, represented as a
 
 # Run
 To integrate this framework into your project, simply copy the classifier.h, classifier.cpp and data-load.h files into your project. Installation of additional libraries is not required.
+    
+# Support
+We all need support and motivation. TryShape is not an exception. Please give this project a ⭐️ to encourage and show that you liked it. Don't forget to leave a star ⭐️ before you move away.
