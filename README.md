@@ -13,6 +13,12 @@ Simple way to learn neural network on C++
 It is a mini frame work for creating and training a neural network by the method of error back propagation with stochastic gradient descent for the C++ language. The  module is for designing a neural network with any number of layers of any size.
 
 # Tests
-With the help of this framework, a neural network was created to classify handwritten letters. 
+With the help of this framework, a neural network was created to classify handwritten letters. The network was trained on a dataset of 75 immages of letters (50 x 50), in which there were 5 classes of letters (15 for each one).
+
 Learning outcomes:
-An example of using this framework can be found [here](https://github.com/ft-290008buchok/Letter_classifier).
+
+    Classification of the training sample - accuracy 100 %
+    Classification of the test sample - accuracy 92 %
+
+
+A more detailed description of the tests can be found [here](https://github.com/ft-290008buchok/Letter_classifier).
