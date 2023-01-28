@@ -91,9 +91,9 @@ To check the accuracy of training on a training sample, you can call the classif
 
 The result of the classification of the dataset elements will be output to the console, 0 will be output for each element if the classification is performed incorrectly or 1 if the classification is performed correctly, and the overall classification accuracy for the entire data set will also be output. The perfect test result on a date set looks like this
 
-![Screenshot 20-01-2023 220843 — копия](https://user-images.githubusercontent.com/71639489/213861107-25707bbb-ac91-4760-8c1b-8fc7ee49244d.jpg)
-
-
+<p align="center">
+    <img width="800" src="https://user-images.githubusercontent.com/71639489/213861107-25707bbb-ac91-4760-8c1b-8fc7ee49244d.jpg">
+</p>
 
 And to classify a new image using a trained neural network, the classifyer::classify(std::vector<int>::iterator immage) is used.
 
