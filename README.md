@@ -12,7 +12,7 @@
 ![neural network](https://img.shields.io/badge/stochastic_gradient_descent-000000?style=for-the-badge&logo=&logoColor=white)
 
 
-# Neural-network
+# SNN (Simple Neural Network)
 It is a mini frame work for creating and training a neural network by the method of error back propagation with stochastic gradient descent for the C++ language. The  module is for designing a neural network with any number of layers of any size.
 
 # Table of contents
