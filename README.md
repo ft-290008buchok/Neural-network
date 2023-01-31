@@ -110,4 +110,4 @@ You can also find an example of using the framework  for multiclass classificati
 To integrate this framework into your project, simply copy the classifier.h, classifier.cpp and data-load.h files into your project, you can find this files in Neural_network folder. Installation of additional libraries is not necessary.
     
 # Support
-We all need support and motivation. TryShape is not an exception. Please give this project a ⭐️ to encourage and show that you liked it. Don't forget to leave a star ⭐️ before you move away.
+We all need support and motivation. SNN is not an exception. Please give this project a ⭐️ to encourage and show that you liked it. Don't forget to leave a star ⭐️ before you move away.
